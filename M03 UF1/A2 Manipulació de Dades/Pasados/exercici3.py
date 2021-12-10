@@ -19,6 +19,7 @@ Catet_B = float(input("catet B?" ))
 #otra manera de hacerlo es
 #import math es lo primero puesto que vamos a utilizar las funciones matematicas.
 
-hipotenusa = math.sqrt(Catet_A**2 + Catet_B**2)
+#hipotenusa = math.sqrt(Catet_A**2 + Catet_B**2)
+hipotenusa = (Catet_A**2 + Catet_B**2) ** 0.5  #ELEVADO A CERO COMA CINCO ES IGUAL QUE SQRT MUAHAHA
 
 print("El resultat es " +str(hipotenusa))
