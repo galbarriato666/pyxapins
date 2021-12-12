@@ -7,7 +7,7 @@ Escriu el programa que demani a l'usuari el valor de dues variables A i B, inter
 variableA = input("Variable A ")
 variableB = input("Variable B ")
 print(variableA,variableB)
-temp = variableB
+temp = variableB #aqui le asigno el valor tal temporal
 variableB = variableA
 variableA = temp
 print(variableA,variableB)

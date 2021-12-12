@@ -14,7 +14,8 @@
 """
 
 year = int(input("Entra l'any:"))
-if (year % 4 == 0 and not (year % 100 == 0)) or year % 400 == 0:
+if (year % 4 == 0 and not (year % 100 == 0)) or year % 400 == 0: #division del año entre 4. Q sea divisible es que el residuo
+    #sea 0. y and que no sea dividible entre 100 (osea not 100 % 0) llevat que, lo que queda
     print("És any de traspàs.")
 else:
     print("No és any de traspàs.")

@@ -11,9 +11,12 @@ nom = input("Entra el teu nom:")
 cognom1 = input("Entra el teu primer cognom:")
 cognom2 = input("Entra el teu segon cognom:")
 
-inicial = nom[0]
-inicial = inicial + cognom1[0]
-inicial = inicial + cognom2[0]
+#inicial = nom[0]
+#inicial = inicial + cognom1[0]
+#inicial = inicial + cognom2[0]
+
+inicial = nom[0] + cognom1[0] + cognom2[0]
+
 # pasem les inicials a majúscules
 inicial = inicial.upper()
 print("Les inicials són:",inicial)

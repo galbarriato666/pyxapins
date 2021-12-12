@@ -17,7 +17,7 @@ costatA = float(input("Entra la longitud del costat A:"))
 costatB = float(input("Entra la longitud del costat B:"))
 costatC = float(input("Entra la longitud del costat C:"))
 
-# Pitágoras
+# Pitágoras: ya q pitagoras se puede repetir en otros triangulos, aislamos su if del resto
 if costatA ** 2 + costatB ** 2 == costatC ** 2 or costatB ** 2 + costatC ** 2 == costatA ** 2 or costatC ** 2 + costatA ** 2 == costatB ** 2:
     print("Triangle Rectangle")
 # Isòsceles
