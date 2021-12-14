@@ -3,7 +3,7 @@
 
 while True:
     car=input("Introduce un carácter:")
-    if len(car) == 1:
+    if len(car) == 1: #esto debe ser 1 = espacio
         break
 while car !=" ":
     if car.upper() == "A" or car.upper() == "E" or car.upper() == "I" or car.upper() == "O" or car.upper() == "U":

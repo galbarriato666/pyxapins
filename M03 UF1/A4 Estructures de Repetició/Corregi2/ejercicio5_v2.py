@@ -12,4 +12,3 @@ while True:
             print("NO VOCAL")
     if car == " ":
         break;
-
