@@ -50,9 +50,35 @@ for temp in marzo:
         if temp < min_temp_mar:
                 min_temp_mar = temp
 
+
 print("Màxima gener és", max_temp_gen,"i mínima",min_temp_gen)
 print("Màxima febrer és", max_temp_feb,"i mínima",min_temp_feb)
 print("Màxima març és", max_temp_mar,"i mínima",min_temp_mar)
+
+mitja_gen = 0
+mitja_feb = 0
+mitja_mar = 0
+
+for temp in gener:
+    mitja_gen = mitja_gen + temp
+    mitja_gen = mitja_gen / len(gener)
+print("La temp mitja del gener és", round(mitja_gen, 2))
+
+for temp in febrer:
+    mitja_feb = mitja_feb + temp
+    mitja_feb = mitja_feb / len(febrer)
+print("La temp mitja del febrer és", round(mitja_feb, 2))
+
+for temp in marzo:
+    mitja_mar = mitja_mar + temp
+    mitja_mar = mitja_mar / len(marzo)
+print("La temp mitja del març és", round(mitja_mar, 2))
+
+
+
+
+
+
 
 
 
