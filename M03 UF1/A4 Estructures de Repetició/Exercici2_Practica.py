@@ -36,4 +36,3 @@ while numuser != numero:
                 print("És más pequeño")
             else:
                 print("És más grande")
-
