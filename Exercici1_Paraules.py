@@ -23,6 +23,11 @@ for paraules in (llista):
     elif tamanyP < len(mides[1]):
         mides[1] = paraules
 
+
+
+print(f'Palabra más larga mide {max_palabra} y más corta {min_palabra}')
+print(f'Media del tamaño de las palabras {round(suma/len(lista),2)}')
+
 print("Paraula + llarga {mides}"f)
 print("Paraula + curta", {mides})
 print(f'Mitjana llargada paraules introduides {round(sum / len(llista), 2)}')
