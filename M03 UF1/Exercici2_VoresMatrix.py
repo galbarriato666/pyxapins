@@ -25,5 +25,3 @@ for filera in range(matrix):
             print(0, end="")
     print()
 print("\nEnd of program")
-
-
