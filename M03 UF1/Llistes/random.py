@@ -1,4 +1,9 @@
-"""2. Programa que generi una llista de 100 nombres aleatoris entre 1 i 50.
+"""
+Emmanuel Manzanilla García
+1r ASIXcB
+19/01/2022
+
+2. Programa que generi una llista de 100 nombres aleatoris entre 1 i 50.
 Obtenir la mitja dels nombres que es troben a les posicions parelles i la mitja del nombre de les  posicions senars.
 
 Per aconseguir nombres aleatoris en Python podem utilitzar la funció random.randint(limitInferior,limitSuperior)
