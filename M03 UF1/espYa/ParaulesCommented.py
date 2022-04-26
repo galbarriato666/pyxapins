@@ -3,6 +3,9 @@ UMAR MOHAMMAD RIAZ i EMMANUEL MANZANILLA GARCIA
 09/03/2022
 ASIXc 1B
 
+
+
+
 Implementar en Python un programa que demani una frase per teclat i la retorni per pantalla amb les lletres de cada
 paraula de la frase desordenada, tal i com diu l’estudi de la Universitat de Cambridge.
 """
