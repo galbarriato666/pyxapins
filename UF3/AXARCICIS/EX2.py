@@ -16,7 +16,7 @@
 #
 # La sortida per pantalla podria ser:
 # La línia 1 té 4 paraules.
-# La línia 2 té 5 paraules.
+# La línia 2 té 5 paraules.eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 # La línia 3 té 3 paraules.
 # La línia 4 té 6 paraules.
 # La línia 5 té 2 paraules.
@@ -25,8 +25,6 @@
 def filepath():
     filepath = './entrada/alvin.txt'
     return filepath
-
-
 
 
 def ComptaParaulesFRASE(contar):
